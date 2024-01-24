@@ -592,8 +592,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>How may AI help you?</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured discuss Blackbaud and their Environment, Social, and Governance efforts</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
